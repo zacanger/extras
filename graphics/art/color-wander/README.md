@@ -1,6 +1,7 @@
 this code is based on [color-wander](https://github.com/mattdesl/color-wander)
 
 to use:
+* downgrade to node 8
 * npm i
 * put some files in maps/
 * node .
@@ -23,5 +24,5 @@ r() {
 
 like this: `r 500 node .`
 
-in maps/ currently there's a wallpaper made from loona's (the kpop group) logo,
+in maps/ currently there's an example input,
 and some example results in output/
