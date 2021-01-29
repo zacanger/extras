@@ -5,11 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-<<<<<<< HEAD:lang/c/st/config.def.h
-static char *font = "FantasqueSansMono:pixelsize=16:antialias=true:autohint=true";
-=======
 static char *font = "Hack:pixelsize=14:antialias=true:autohint=true";
->>>>>>> m/master:more-junk/c/st/config.def.h
 static int borderpx = 2;
 
 /*
@@ -133,17 +129,6 @@ unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
 unsigned int defaultcs = 257;
 unsigned int defaultrcs = 257;
-<<<<<<< HEAD:lang/c/st/config.def.h
-
-/*
- * Colors used, when the specific fg == defaultfg. So in reverse mode this
- * will reverse too. Another logic would only make the simple feature too
- * complex.
- */
-static unsigned int defaultitalic = 7;
-static unsigned int defaultunderline = 7;
-=======
->>>>>>> m/master:more-junk/c/st/config.def.h
 
 /*
  * Default shape of cursor
